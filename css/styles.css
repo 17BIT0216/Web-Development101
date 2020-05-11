@@ -1,0 +1,169 @@
+body{
+  font-family: Montserrat;
+}
+#title
+{
+  background-color: #ff4c68;
+}
+
+h1
+{
+  font-family: Montserrat;
+  font-size: 4rem;
+  line-height: 1.4;
+  color: white;
+}
+h3
+{
+  font-family: Montserrat;
+  font-size: 1.5rem;
+}
+p{
+  color: #8f8f8f;
+}
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+
+.Button1
+{
+  padding-right: 20px;
+}
+
+
+/* Navigation bar */
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+.navbar-brand
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+.nav-item
+{
+  padding-right: 10px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Buttons */
+.Dbutton
+{
+  margin: 2% 3%;
+}
+
+/* title image */
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* favicons */
+.fa-check-circle
+{
+  font-size: 60px;
+  color: orange;
+  margin-bottom: 2px;
+
+}
+.fa-bullseye
+{
+  font-size: 60px;
+  color: orange;
+    margin-bottom: 2px;
+}
+.fa-heartbeat
+{
+  font-size: 60px;
+  color: orange;
+    margin-bottom: 2px;
+}
+
+
+
+
+#features
+{
+  padding: 8% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box
+{
+  text-align: center;
+}
+
+.icons:hover
+{
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials{
+padding: 7% 15%;
+text-align: center;
+background-color: #ff4c68;
+color: white;
+}
+.dog-img{
+  border-radius: 100%;
+  width: 15%;
+}
+
+#press{
+  padding: 5% 10%;
+  text-align: center;
+}
+.press-img{
+  width: 15%;
+}
+#pricing
+{
+  text-align: center;
+  padding: 5% 10%;
+}
+.price
+{
+  padding: 2% 2%;
+}
+
+@media (max-width:1020px){
+  .title-img
+  {
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+#cta
+{
+  background-color:  #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 4% 4%;
+}
+#footer
+{
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
+  padding: 4%;
+}
+.foot{
+padding: 2px;
+color: grey;
+}
+.last-para
+{
+  margin: 0;
+}
